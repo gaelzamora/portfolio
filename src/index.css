@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: #0a192f;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  @apply text-[#0a192f]; /* Cambia 'text-red-500' por la clase de color que desees */
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  @apply text-[#0a192f]; /* Cambia 'text-blue-500' por la clase de color que desees al pasar el cursor */
+}
