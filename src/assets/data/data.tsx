@@ -37,7 +37,7 @@ export const projectImage = [
 
 export const projects = [
     {name: 'Process Simulator', link: 'https://github.com/gaelzamora/SimuladorProcesos', description: 'A simulator of proccess made in Java.'},
-    {name: 'Youtube Clone', link: '', description: 'This is a project Frontend made with React, TypeScript and Tailwind.'},
+    {name: 'Youtube Clone', link: 'https://github.com/gaelzamora/youtube-clone', description: 'This is a project Frontend made with React, TypeScript and Tailwind.'},
     {name: 'API Ecommerce with all functions', link: 'https://github.com/gaelzamora/gambit', description: 'This project was make with Golang and AWS, It has all functions that an ecommerce must have.'},
 
 ]
