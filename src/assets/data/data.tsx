@@ -32,7 +32,7 @@ export const otherTechnologies = [
 ]
 
 export const projectImage = [
-    {name: 'CellHome Project', images: [cellhome_image,cellhome_store,cellhome_login,cellhome_product,cellhome_to_cart, cellhome_bag, cellhome_search, cellhome_admin], description: "This project was inspired in Apple Website, has a method payment with Paypal, you can ADD products, EDIT products and DELETE products with admin account, also can to buy items, to add your address and save your information for future purchases, all the code is on Github." ,link: 'https://github.com/gaelzamora/cellhome_project', technologies: [python, react, tailwind, typescript]}
+    {name: 'CellHome Project', images: [cellhome_image,cellhome_store,cellhome_login,cellhome_product,cellhome_to_cart, cellhome_bag, cellhome_search, cellhome_admin], description: "Developed and organized architecture monolithic Python aplication using Django Rest Framework processing implementation of users, orders, and products, this aplication was implemented to process data storage, and save data in database SQLite. Also I Developed and maintained web aplication using React, Typescript and Tailwind, I Implemented advanced functionalities such as form validation, routing and data visualization. and I Developed user experience to design and implement responsive and dynamic user interfaces." ,link: 'https://github.com/gaelzamora/cellhome_project', technologies: [python, react, tailwind, typescript]}
 ]
 
 export const projects = [

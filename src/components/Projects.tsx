@@ -65,8 +65,6 @@ function Projects() {
                             navigation
                             pagination={{ clickable: true }}
                             scrollbar={{ draggable: true }}
-                            onSwiper={(swiper) => console.log(swiper)}
-                            onSlideChange={() => console.log('slide change')}
                             className="pt-5 relative"
                             >   
                                 {project.images.map(image => (    

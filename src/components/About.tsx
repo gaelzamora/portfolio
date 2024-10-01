@@ -30,7 +30,7 @@ function About() {
                     className="col-span-2 text-gray-400 tracking-wide" 
                     
                 >
-                    <p className="text-justify">I am student of Computer Engineering at <span className="text-green-400">Universidad Nacional Autonoma de Mexico</span> I'm cursing Seventh Semester, I am apassioned of Software Development my work is oriented in Machine Learning to <span className="text-green-400">Backend Development.</span></p>
+                    <p className="text-justify">I am student of Computer Engineering at <span className="text-green-400">Universidad Nacional Autonoma de Mexico</span> I'm cursing Seventh Semester, I am apassioned of Software Development my work is oriented to <span className="text-green-400">Backend Development.</span></p>
                     <p className="mt-3">Some technologies I have been work: </p>
                     <div className="grid md:grid-cols-3 md:auto-rows-[300px] gap-5 mt-5" ref={textRef}>
                         <div className="max-w-[300px]">
