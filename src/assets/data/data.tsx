@@ -35,7 +35,6 @@ export const backendTechnologies = [
 ]
 
 export const otherTechnologies = [
-    {name: 'Git'},
     {name: 'Docker'},
     {name: 'Bash'},
 ]
