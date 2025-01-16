@@ -25,7 +25,7 @@ function Navbar() {
         <Link to={'jgaelhz@gmail.com'} className="hidden md:block"><FontAwesomeIcon icon={faEnvelope} className='cursor-pointer' /></Link>
         <Link to={'https://www.linkedin.com/in/gael-zamora-8aab432ab/'} className="hidden md:block"><FontAwesomeIcon icon={faLinkedin} className='cursor-pointer' /></Link>
         <Link to={'https://github.com/gaelzamora'} className="hidden md:block"><FontAwesomeIcon icon={faGithub} className='cursor-pointer' /></Link>
-        <a href="/public/archives/RESUME.pdf" download className='cursor-pointer px-6 border-2 py-2 hover:bg-white hover:text-gray-800 font-semibold'>RESUME</a>
+        <a href="/archives/RESUME.pdf" download className='cursor-pointer px-6 border-2 py-2 hover:bg-white hover:text-gray-800 font-semibold'>RESUME</a>
       </div>
     </div>
   )
