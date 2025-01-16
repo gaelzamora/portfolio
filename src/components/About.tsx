@@ -35,7 +35,7 @@ function About() {
 My journey in software engineering has been fueled by an endless curiosity and a deep drive to stay at the cutting edge of technological innovation. I genuinely enjoy tackling complex challenges and designing efficient, scalable solutions that not only fulfill but exceed expectations.
 
 I'm always eager to learn and grow, thriving in collaborative environments where I can share my expertise and gain insights from others. My mission is to leverage my technical skills and problem-solving mindset to create impactful software solutions that drive meaningful change.</p>
-                    <p className="mt-3">Some technologies I have been work: </p>
+                    <p className="mt-3">Some technologies in which I have been working: </p>
                     <div className="grid md:grid-cols-3 md:auto-rows-[300px] gap-5 mt-5" ref={textRef}>
                         <div className="max-w-[300px]">
                             <p className="text-lg text-green-400">Backend: </p>

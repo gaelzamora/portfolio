@@ -14,7 +14,7 @@ function Home() {
         </h1>
         <div className="text-gray-400">
             <p className="mt-5 text-5xl">I make good things sometimes.</p>
-            <p className="mt-5 text-2xl md:max-w-[70%] mx-auto md:text-center text-justify">I'm software developer, focused in Backend Development also I am apasioned of Machine Learning.</p>
+            <p className="mt-5 text-2xl md:max-w-[70%] mx-auto md:text-center text-justify">I'm a Software Developer, focused in Backend Development I am pasionate about Machine Learning.</p>
         </div>
     </section>
   )
