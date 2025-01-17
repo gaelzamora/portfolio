@@ -92,7 +92,7 @@ function Projects() {
                     ))}
                 </div>
             </div>
-            <div className="grid mt-10 md:grid-cols-3 auto-rows-[300px] gap-4" ref={cardRef}>
+            <div className="grid mt-10 md:grid-cols-2 lg:grid-cols-3 auto-rows-[350px] gap-4" ref={cardRef}>
                 <AnimatePresence mode="wait">
                     {projects.map((project, index) => (
                         <motion.div 
@@ -104,10 +104,16 @@ function Projects() {
                             layoutId={project.name}
                             variants={itemOpacity}
                         >
-                            <p className="text-gray-200 text-lg tracking-wide font-semibold">{project.name}</p>
-                            <p className="text-md text-gray-200 tracking-wider mt-10">{project.description}</p>
-                            <Link to={project.link}><FontAwesomeIcon icon={faGithub} className='cursor-pointer absolute top-14 right-10 text-3xl text-white' /></Link>
-                            
+                            <div className="flex justify-between items-start">
+                                <p className="text-gray-200 text-lg tracking-wide font-semibold flex-1">{project.name}</p>
+                                <Link to={project.link}>
+                                    <FontAwesomeIcon icon={faGithub} className='cursor-pointer text-3xl text-white' />
+                                </Link>
+                            </div>
+
+                            <div className="text-md text-gray-200 tracking-wider mt-10 h-32 overflow-y-scroll pr-4">
+                              {project.description}
+                            </div>
                         </motion.div>
                     ))}
                 </AnimatePresence>
