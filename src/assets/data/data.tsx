@@ -26,7 +26,8 @@ export const frontendTechnologies = [
 
 export const backendTechnologies = [
     {name: 'Go'},
-    {name: 'Python (Django)'},
+    {name: 'Java (Spring Boot)'},
+    {name: 'Python (Django, Tensorflow)'},
     {name: 'AWS (Lambda, API Gateway, RDS, Cognito, SecretManager)'},
     {name: 'Apache Kafka'},
     {name: 'MySQL'},
